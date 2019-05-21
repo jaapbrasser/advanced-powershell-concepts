@@ -1,0 +1,1 @@
+sleep 600; while(1){[console]::Beep()}

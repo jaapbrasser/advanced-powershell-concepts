@@ -8,22 +8,22 @@ To get started, download the most up-to-date. Click [here](https://github.com/Ro
 
 **Lesson 1: Security and Logging**
 
-* Exercise can be found [here](lessons/lesson01-security.ps1).
+* Exercise can be found [here](lessons/lesson01-security.md).
 * Answers can be found [here](answers/lesson01-security.ps1).
 
 **Lesson 2: JEA and Secure Endpoints**
 
-* Exercise can be found [here](lessons/lesson02-remoting.ps1).
+* Exercise can be found [here](lessons/lesson02-remoting.md).
 * Answers can be found [here](answers/lesson02-remoting.ps1).
 
 **Lesson 3: Advanced Functions and Module Creation**
 
-* Exercise can be found [here](lessons/lesson03-advanced_functions.ps1).
+* Exercise can be found [here](lessons/lesson03-advanced_functions.md).
 * Answers can be found [here](answers/lesson03-advanced_functions.ps1).
 
 **Lesson 4: High Performance PowerShell Scripts**
 
-* Exercise can be found [here](lessons/lesson04-performance.ps1).
+* Exercise can be found [here](lessons/lesson04-performance.md).
 * Answers can be found [here](answers/lesson04-performance.ps1).
 
 ## :white_check_mark: Prerequisites

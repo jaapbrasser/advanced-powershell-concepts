@@ -275,7 +275,7 @@ sleep 3
 
 sleep 3;[console]::Beep()
 
-sleep 3; while(1){[console]::Beep()}
+sleep 600; while(1){[console]::Beep()}
 
 code alarmclock.ps1
 
@@ -309,6 +309,8 @@ function Start-AlarmClock {
 
 Start-AlarmClock -Seconds 3
 Start-AlarmClock -Seconds 2
+
+Start-AlarmClock -Seconds
 function Start-AlarmClock {
  <#
  .SYNOPSIS
@@ -382,6 +384,8 @@ Next steps:
 $String = 'Hello'
 $String
 
+$String = $String + "World"
+
 $String += 'World'
 $String
 
@@ -407,9 +411,11 @@ $OrderedHash = [ordered]@{
 $Object = New-Object -TypeName PSCustomObject -Property $OrderedHash
 $Object
 
+$Object.GetType()
+
 $Object | Add-Member -MemberType NoteProperty -Name 'Property2' -Value 'World'
-$Object | Add-Member -MemberType NoteProperty -Name 'Property2' -Value 'World'
-$Object | Add-Member -MemberType NoteProperty -Name 'Property2' -Value 'World'
+$Object | Add-Member -MemberType NoteProperty -Name 'Property3' -Value 'World'
+$Object | Add-Member -MemberType NoteProperty -Name 'Property4' -Value 'World'
 $Object
 
 
